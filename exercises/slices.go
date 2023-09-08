@@ -1,12 +1,11 @@
-// Objective: Create a slice, append 5 values to it, and print the slice in reverse order.
-package main
+package exercises
 
 import (
 	"fmt"
 	"slices"
 )
 
-func main() {
+func Slices() {
 	s := []int{1, 2, 3, 4, 5}
 	for i := len(s); i > 0; i-- {
 		fmt.Printf("%v ", s[i-1])

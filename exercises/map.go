@@ -1,8 +1,8 @@
-package main
+package exercises
 
 import "fmt"
 
-func main() {
+func Map() {
 	family := make(map[string]int)
 
 	// Add a few entries

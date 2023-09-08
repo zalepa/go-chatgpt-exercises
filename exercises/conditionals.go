@@ -1,5 +1,4 @@
-// >Objective: Use if, else if, and else to determine and print out whether a user-inputted number is positive, negative, or zero.
-package main
+package exercises
 
 import (
 	"bufio"
@@ -8,7 +7,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func Conditionals() {
 	scanner := bufio.NewScanner(os.Stdin)
 
 	fmt.Println("Enter a number (press Ctrl+D or Ctrl+Z to end):")

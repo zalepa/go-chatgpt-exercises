@@ -1,8 +1,8 @@
-package main
+package exercises
 
 import "fmt"
 
-func main() {
+func Vars() {
 	var name string
 	name = "George"
 	var age int = 39

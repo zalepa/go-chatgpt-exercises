@@ -1,4 +1,4 @@
-package main
+package exercises
 
 import "fmt"
 
@@ -10,7 +10,7 @@ func factorial(n int) int {
 	}
 }
 
-func main() {
+func Factorial() {
 	for i := 0; i < 10; i++ {
 		fmt.Printf("factorial(%v) = %v\n", i, factorial(i))
 	}

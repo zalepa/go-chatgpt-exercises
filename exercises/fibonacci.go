@@ -1,8 +1,8 @@
-package main
+package exercises
 
 import "fmt"
 
-func main() {
+func Fibonacci() {
 
 	nums := make([]int, 10)
 
