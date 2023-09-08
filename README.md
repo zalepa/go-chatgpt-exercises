@@ -20,3 +20,15 @@
 
 ## Exercise 7: Maps
 > Objective: Create a map that stores the age of people by name. Add a few entries, update an entry, delete an entry, and print the map.
+
+## Exercise 8: Goroutines and Channels
+Objective: Familiarize yourself with Go's concurrency primitives, specifically goroutines and channels. Create a program that uses goroutines to calculate the sum of two slices concurrently and then combines the results.
+
+1. Create two slices of integers.
+2. Use one goroutine to calculate the sum of the first slice.
+3. Use another goroutine to calculate the sum of the second slice.
+4. Both goroutines should send their results to a single channel.
+5. The main function should read from the channel twice to get both sums and then combine them to get the total sum.
+6. Print out the individual sums of both slices as well as the combined total.
+
+This exercise will help you get hands-on experience with launching goroutines and synchronizing them using channels.
